@@ -308,7 +308,7 @@ This project tries to adhere to [Semantic Versioning](http://semver.org/). In pr
 - bring some consistency to how the plugin handles scenes
 
 See the first section of the updated wiki document for instructions:
-- https://github.com/bwp91/homebridge-govee/wiki/Scene,-Music,-DIY-Modes
+- https://github.com/homebridge-plugins/homebridge-govee/wiki/Scene,-Music,-DIY-Modes
 
 ### Added
 
@@ -535,7 +535,7 @@ Unfortunately this update will break your kettle. This is something I am working
 
 - Better handling of custom light scenes
   - Unfortunately all existing scene codes are no longer valid - you will need to recreate your scenes
-  - See [wiki page](https://github.com/bwp91/homebridge-govee/wiki/Scene,-Music,-DIY-Modes) for more info
+  - See [wiki page](https://github.com/homebridge-plugins/homebridge-govee/wiki/Scene,-Music,-DIY-Modes) for more info
   - There _may_ be some older models which this method does not work for - if you have one of these, please open an issue
 
 ### Fixed
@@ -792,7 +792,7 @@ Unfortunately this update will break your kettle. This is something I am working
 ### Added
 
 - 🎉 LAN mode! 🎉 (thanks [@alboiuvlad29](https://github.com/alboiuvlad29)!)
-  - See [the homebridge-govee wiki](https://github.com/bwp91/homebridge-govee/wiki/Supported-Devices) for supported devices
+  - See [the homebridge-govee wiki](https://github.com/homebridge-plugins/homebridge-govee/wiki/Supported-Devices) for supported devices
   - The plugin will scan your local network for supported Govee lights
   - You can also specify the IP address of your Govee light in the config
   - The plugin will match any discovered devices to your existing accessories from cloud usage
@@ -1319,7 +1319,7 @@ See ⚠️ for potentially-breaking changes.
 
 ### Fixed
 
-- Removed H6144 from 'scale brightness' list, fixes [#99](https://github.com/bwp91/homebridge-govee/issues/99)
+- Removed H6144 from 'scale brightness' list, fixes [#99](https://github.com/homebridge-plugins/homebridge-govee/issues/99)
 
 ## v4.4.0 (2021-08-09)
 
@@ -1523,7 +1523,7 @@ See ⚠️ for potentially-breaking changes.
 ### Added
 
 - Support for Bluetooth control for power/brightness/colour for supported devices
-  - Extra packages may need to be installed on your system - [see wiki](https://github.com/bwp91/homebridge-govee/wiki/Bluetooth-Control)
+  - Extra packages may need to be installed on your system - [see wiki](https://github.com/homebridge-plugins/homebridge-govee/wiki/Bluetooth-Control)
   - Enter your Govee username and password in the config
   - Create an entry for your light in the 'Light Devices' section and check 'Enable Bluetooth Control'
 
@@ -1719,7 +1719,7 @@ See ⚠️ for potentially-breaking changes.
 
 ### Changed
 
-- **Light devices** will now send on/off commands **after** brightness and colour ([#56](https://github.com/bwp91/homebridge-govee/issues/56))
+- **Light devices** will now send on/off commands **after** brightness and colour ([#56](https://github.com/homebridge-plugins/homebridge-govee/issues/56))
 - More welcome messages
 - Updated `plugin-ui-utils` dependency
 

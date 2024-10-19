@@ -4,7 +4,7 @@
   "singular": true,
   "customUi": true,
   "customUiPath": "./lib/homebridge-ui",
-  "headerDisplay": "<p align=\"center\"><img width=\"60%\" src=\"https://user-images.githubusercontent.com/43026681/101324574-5e997d80-3862-11eb-81b0-932330f6e242.png\"></p><p align=\"center\">For help and support please visit our <a href=\"https://github.com/bwp91/homebridge-govee/wiki\">GitHub Wiki</a>. We hope you find this plugin useful!</p>",
+  "headerDisplay": "<p align=\"center\"><img width=\"60%\" src=\"https://user-images.githubusercontent.com/43026681/101324574-5e997d80-3862-11eb-81b0-932330f6e242.png\"></p><p align=\"center\">For help and support please visit our <a href=\"https://github.com/homebridge-plugins/homebridge-govee/wiki\">GitHub Wiki</a>. We hope you find this plugin useful!</p>",
   "schema": {
     "type": "object",
     "properties": {
@@ -16,12 +16,12 @@
       "username": {
         "type": "string",
         "title": "Govee Email",
-        "description": "Required for most device models and for AWS/BLE connections. <a href=\"https://github.com/bwp91/homebridge-govee/wiki/Supported-Devices\" target=\"_blank\">Read more →</a>"
+        "description": "Required for most device models and for AWS/BLE connections. <a href=\"https://github.com/homebridge-plugins/homebridge-govee/wiki/Supported-Devices\" target=\"_blank\">Read more →</a>"
       },
       "password": {
         "type": "string",
         "title": "Govee Password",
-        "description": "Required for certain light models. <a href=\"https://github.com/bwp91/homebridge-govee/wiki/Supported-Devices\" target=\"_blank\">Read more →</a>"
+        "description": "Required for certain light models. <a href=\"https://github.com/homebridge-plugins/homebridge-govee/wiki/Supported-Devices\" target=\"_blank\">Read more →</a>"
       },
       "httpRefreshTime": {
         "title": "HTTP Refresh Interval",
@@ -144,7 +144,7 @@
               "title": "Custom Bluetooth Address",
               "type": "string",
               "placeholder": "a1:b2:c3:d4:e5:f6",
-              "description": "The plugin may not be able to determine the bluetooth address of some older models. <a href=\"https://github.com/bwp91/homebridge-govee/wiki/Bluetooth-Control#finding-the-bluetooth-address\" target=\"_blank\">Read more →</a>",
+              "description": "The plugin may not be able to determine the bluetooth address of some older models. <a href=\"https://github.com/homebridge-plugins/homebridge-govee/wiki/Bluetooth-Control#finding-the-bluetooth-address\" target=\"_blank\">Read more →</a>",
               "minLength": 17,
               "maxLength": 17,
               "condition": {
@@ -1458,7 +1458,7 @@
               "expandable": true,
               "title": "Custom Scenes/Modes",
               "type": "fieldset",
-              "description": "Use these settings to start creating HomeKit scenes with your Govee scenes, music mode and DIY modes. <a href=\"https://github.com/bwp91/homebridge-govee/wiki/Scene%2C-Music%2C-DIY-Modes\" target=\"_blank\">Read more →</a>",
+              "description": "Use these settings to start creating HomeKit scenes with your Govee scenes, music mode and DIY modes. <a href=\"https://github.com/homebridge-plugins/homebridge-govee/wiki/Scene%2C-Music%2C-DIY-Modes\" target=\"_blank\">Read more →</a>",
               "items": [
                 "lightDevices[].scene.sceneCode",
                 "lightDevices[].scene.bleCode",

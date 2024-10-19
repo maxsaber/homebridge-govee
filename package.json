@@ -27,13 +27,13 @@
       "url": "https://www.paypal.me/BenPotter"
     }
   ],
-  "homepage": "https://github.com/bwp91/homebridge-govee",
+  "homepage": "https://github.com/homebridge-plugins/homebridge-govee",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bwp91/homebridge-govee.git"
+    "url": "git+https://github.com/homebridge-plugins/homebridge-govee.git"
   },
   "bugs": {
-    "url": "https://github.com/bwp91/homebridge-govee/issues"
+    "url": "https://github.com/homebridge-plugins/homebridge-govee/issues"
   },
   "keywords": [
     "homebridge",
@@ -48,7 +48,7 @@
   "main": "lib/index.js",
   "engines": {
     "homebridge": "^1.6.0 || ^2.0.0-beta.0",
-    "node": "^18.20.4 || ^20.18.0 || ^22.9.0"
+    "node": "^18.20.4 || ^20.18.0 || ^22.10.0"
   },
   "scripts": {
     "lint": "eslint . --fix",
@@ -69,7 +69,7 @@
     "govee-bt-client": "^1.0.15"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.7.3",
-    "eslint": "^9.12.0"
+    "@antfu/eslint-config": "^3.8.0",
+    "eslint": "^9.13.0"
   }
 }
