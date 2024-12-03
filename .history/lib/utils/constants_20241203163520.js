@@ -561,7 +561,6 @@ export default {
     'H70BC', // https://app-h5.govee.com/user-manual/wlan-guide (2024-10-15)
     'H70C1', // https://app-h5.govee.com/user-manual/wlan-guide (2024-10-15)
     'H70C2', // https://app-h5.govee.com/user-manual/wlan-guide (2024-10-15)
-    'H70C4', // https://app-h5.govee.com/user-manual/wlan-guide (2024-10-15)
     'H805A', // https://app-h5.govee.com/user-manual/wlan-guide (2024-10-15)
     'H805B', // https://app-h5.govee.com/user-manual/wlan-guide (2024-10-15)
     'H805C', // https://app-h5.govee.com/user-manual/wlan-guide (2024-10-15)
