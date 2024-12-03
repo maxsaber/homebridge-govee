@@ -2,7 +2,7 @@
   "name": "@maxsaber/homebridge-govee",
   "alias": "Govee",
   "type": "module",
-  "version": "10.12.2-beta.2",
+  "version": "10.12.2-beta.1",
   "description": "Homebridge plugin to integrate Govee devices into HomeKit.",
   "author": "maxsaber <max@maxsaber.com>",
   "license": "MIT",
